@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio de Djibril SOW</title>
 </head>
 <body>
     <header>
-        <p><img src="./res/gmc.jpg" alt="logo"></p>
-        <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="#apropos">A Propos</a>
-            <a href="#travail">Travail</a>
-            <a href="#cv">CV</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <img src="./res/gmc.jpg" alt="logo" class="center">
+        <ul>
+           <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">A Propos</a></li>
+            <li><a href="#travail">Travail</a></li>
+           <li> <a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </header>
-    
+    <hr>
     <main>
         <section>
-            <h2 id="apropos">A propos</h2>
+            <h2 id="apropos" class="center">A propos</h2>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -40,7 +41,7 @@
             </p>
         </section>
         <section>
-            <h2 id="travail">Travail</h2>
+            <h2 id="travail" class="center">Travail</h2>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -48,13 +49,13 @@
             </p>
         </section>
         <section>
-            <h2 id="cv">Mon CV</h2>
+            <h2 id="cv" class="center">Mon CV</h2>
             <p>
-                <img src="./res/cv.png" alt="mon CV" width="900">
+                <img src="./res/cv.png" alt="mon CV"  class="center">
             </p>
         </section>
         <section>
-            <h2 id="contact">Contact</h2>
+            <h2 id="contact" class="center">Contact</h2>
             <form >
                 <div>
                     <label>Nom</label>
@@ -69,6 +70,7 @@
                     <input type="email" name="email" placeholder="Entrer votre email">
                 </div>
                 <div>
+                    <label>Message</label>
                     <textarea name="message"  cols="40" rows="10" placeholder="Votre message ici"></textarea>
                 </div>
                 <div>
@@ -78,7 +80,7 @@
         </section>
     </main>
     <footer>
-        <h2>Retrouvez moi aussi sur : </h2>
+        <h2 class="center">Retrouvez moi aussi sur : </h2>
         <ul>
             <li><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="facebook"></li>
             <li><img src="https://img.icons8.com/fluency/48/000000/stack-of-tweets.png" alt="tweeter"></li>
