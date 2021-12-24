@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Roboto:ital,wght@1,900&display=swap');
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+h2.center{
+    text-align: center;
+}
+
+ img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p > img {
+    width: 900px;
+}
+
+form {
+    width: 400px;
+    margin: 40px auto;
+}
+
+input, textarea {
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #1abc9c;
+    width: 100%;
+    padding: 10px;
+    font-size: 10x;
+    font-weight: 600;
+    line-height: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+input:focus, textarea:focus{
+    background-color: #1abc9c;
+}
+
+button {
+    color: #FFF;
+    background-color: green;
+    border: 2px solid darkgreen;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 40px;
+    padding: auto;
+}
